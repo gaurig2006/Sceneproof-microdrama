@@ -12,13 +12,6 @@ After discussing the content workflow with a friend familiar with the industry, 
 
 I did not choose Problem 1 because credible promo ranking needs watch-time, CTR, or conversion labels that were unavailable for a valid three-hour evaluation. I did not choose Problem 2 because an honest legal assistant needs jurisdiction-aware retrieval, citations, privacy safeguards, and escalation—too high-stakes and broad for this prototype window.
 
-## GitHub Pages deployment (no API key required)
-
-1. Create a **public** GitHub repository named `sceneproof-microdrama-qa`.
-2. Upload the contents of this folder to the repository root and commit to `main`.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/docs`, then save.
-5. After GitHub finishes publishing, open `https://gaurig2006.github.io/sceneproof-microdrama-qa/` in an incognito window.
 
 The Pages site is a static verified demo. New-video Whisper/frame extraction runs through the Python backend locally or on a compute host.
 
