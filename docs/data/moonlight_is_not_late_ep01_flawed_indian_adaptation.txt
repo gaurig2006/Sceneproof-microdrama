@@ -1,0 +1,82 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: On the night before her wedding, Meera reaches her fiance's bachelor party and begins to question his commitment.
+CONTINUITY NOTES: First episode of the Indian adaptation.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. KTV CLUB – NIGHT
+Scene start: 00:00.00
+Scene end: 02:22.80
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:09.26)
+Meera climbs the curved staircase while speaking to Kavya on her phone.
+
+**KAVYA (PHONE) (Concerned):**
+Start: (00:00.00) | End: (00:06.66)
+"Meera, Naina has come back to Delhi. Maybe she heard about your wedding."
+
+**MEERA (Dismissive):**
+Start: (00:07.18) | End: (00:09.26)
+"She can come back if she wants. It has nothing to do with me."
+
+**MEERA (Confident):**
+Start: (00:24.30) | End: (00:28.30)
+"Naina is part of Aarav's past. I will call you later."
+
+**ACTION:**
+Start: (00:28.30) | End: (00:31.90)
+An attendant leads Meera toward the party room.
+
+**ROHAN (Playful):**
+Start: (00:36.54) | End: (00:48.90)
+"Huo Mingxi lost. He should call the woman he loves most."
+
+**VIKRAM (Cautious):**
+Start: (00:53.43) | End: (00:55.89)
+"He is getting married tomorrow. Pick another dare."
+
+**AARAV MALHOTRA (Calm):**
+Start: (00:59.11) | End: (01:01.41)
+"It is fine. I will call."
+
+**ACTION:**
+Start: (01:02.07) | End: (01:18.03)
+Aarav calls Naina while Meera waits outside the room.
+
+**AARAV MALHOTRA (Soft):**
+Start: (01:19.32) | End: (01:26.56)
+"I heard you are back. How have you been? Can we meet?"
+
+**AARAV MALHOTRA (Conflicted):**
+Start: (01:28.12) | End: (01:45.84)
+"Meera and I have some misunderstandings, but I am trying to make our relationship work."
+
+**ACTION:**
+Start: (01:47.70) | End: (01:53.53)
+Meera enters the room and looks at Aarav.
+
+**AARAV MALHOTRA (Annoyed):**
+Start: (01:53.44) | End: (01:57.88)
+"Why are you here? This is my bachelor party."
+
+**MEERA (Hurt):**
+Start: (01:57.88) | End: (02:01.22)
+"We are getting married tomorrow. Was this really necessary?"
+
+**VIKRAM (Mediating):**
+Start: (02:02.44) | End: (02:05.80)
+"I asked Meera to come because you have had too much to drink."
+
+**AARAV MALHOTRA (Dismissive):**
+Start: (02:06.18) | End: (02:11.30)
+"Ignore her. Let us continue the party."
+
+**ACTION:**
+Start: (02:12.07) | End: (02:22.80)
+Meera stares at Aarav as the room becomes silent.
+
+--- SCRIPT END ---
