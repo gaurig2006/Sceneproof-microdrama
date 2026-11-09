@@ -1,0 +1,458 @@
+{
+  "run_id": "run-20261108-131225-6c956f",
+  "mode": "local-asr-ocr-alignment-model",
+  "media": {
+    "filename": "moonlight_is_not_late_ep01.mp4",
+    "duration_seconds": 142.8,
+    "size_bytes": 16662986,
+    "video_codec": "h264",
+    "width": 720,
+    "height": 1280,
+    "frame_rate": "30/1",
+    "audio_codec": "aac",
+    "audio_sample_rate": "44100",
+    "audio_channels": 2,
+    "processing_seconds": 40.55,
+    "scene_change_count": 68,
+    "sampled_frame_count": 16,
+    "input_sha_note": "The original video is not copied into outputs; keep the licensed source separately.",
+    "alignment_model": {
+      "model": "per-run TF-IDF word/character feature union + timestamp alignment",
+      "source_blocks": 40,
+      "adapted_blocks": 17,
+      "requirements": 10,
+      "documents_fitted": 63,
+      "feature_count": 4690,
+      "hardcoded_show_knowledge": false
+    }
+  },
+  "transcript": {
+    "engine": "faster-whisper",
+    "model": "small",
+    "task": "translate",
+    "detected_language": "zh",
+    "language_probability": 0.9975,
+    "segment_count": 41,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Wanwan, did you hear that?"
+      },
+      {
+        "start": 2.0,
+        "end": 4.2,
+        "text": "Mo Xue is going back to her country!"
+      },
+      {
+        "start": 4.2,
+        "end": 7.2,
+        "text": "He didn't just hear that you and Huo Mianxi are getting married, right?"
+      },
+      {
+        "start": 7.2,
+        "end": 9.6,
+        "text": "Go back and come back. It has nothing to do with me."
+      },
+      {
+        "start": 9.6,
+        "end": 19.6,
+        "text": "How does it have nothing to do with me?"
+      },
+      {
+        "start": 19.6,
+        "end": 21.8,
+        "text": "Back then, Huo Mianxi was doing it for him."
+      },
+      {
+        "start": 21.8,
+        "end": 24.2,
+        "text": "He almost got into a fight with his family."
+      },
+      {
+        "start": 24.2,
+        "end": 25.4,
+        "text": "Okay, Qiao Qiao."
+      },
+      {
+        "start": 25.4,
+        "end": 27.6,
+        "text": "Mo Xue has already been in the past for Mianxi."
+      },
+      {
+        "start": 27.6,
+        "end": 29.0,
+        "text": "I'll hang up now."
+      },
+      {
+        "start": 29.0,
+        "end": 36.7,
+        "text": "Miss Mo, this way please."
+      },
+      {
+        "start": 36.7,
+        "end": 38.1,
+        "text": "Hey, you lost."
+      },
+      {
+        "start": 38.1,
+        "end": 42.5,
+        "text": "Please help me think about how to save Huo Shao."
+      },
+      {
+        "start": 42.5,
+        "end": 43.9,
+        "text": "Thank you."
+      },
+      {
+        "start": 44.7,
+        "end": 53.61,
+        "text": "Why don't you call the girl you love the most in your life, Huo Shao?"
+      },
+      {
+        "start": 53.61,
+        "end": 56.61,
+        "text": "I'm not married yet. Don't make any trouble."
+      },
+      {
+        "start": 56.61,
+        "end": 59.21,
+        "text": "I think it's better to have another one."
+      },
+      {
+        "start": 59.21,
+        "end": 60.01,
+        "text": "It's okay."
+      },
+      {
+        "start": 60.01,
+        "end": 79.51,
+        "text": "I'm willing to accept it."
+      },
+      {
+        "start": 79.51,
+        "end": 80.71,
+        "text": "It's okay."
+      },
+      {
+        "start": 80.71,
+        "end": 82.31,
+        "text": "I just heard that you're going back to your country."
+      },
+      {
+        "start": 82.31,
+        "end": 84.51,
+        "text": "I want to ask you how you've been doing lately."
+      },
+      {
+        "start": 84.51,
+        "end": 88.11,
+        "text": "Can you give me a chance to meet you?"
+      },
+      {
+        "start": 88.11,
+        "end": 89.31,
+        "text": "Marry?"
+      },
+      {
+        "start": 89.31,
+        "end": 91.91,
+        "text": "You clearly know who I like."
+      },
+      {
+        "start": 91.91,
+        "end": 93.51,
+        "text": "I'm his family member."
+      },
+      {
+        "start": 93.51,
+        "end": 95.11,
+        "text": "I have nothing to do with him."
+      },
+      {
+        "start": 95.11,
+        "end": 96.71,
+        "text": "I'm his family member."
+      },
+      {
+        "start": 96.71,
+        "end": 99.51,
+        "text": "I have nothing to do with him."
+      },
+      {
+        "start": 99.51,
+        "end": 101.31,
+        "text": "I can give him the name Huo Shao."
+      },
+      {
+        "start": 101.31,
+        "end": 104.58,
+        "text": "But he can't be in love."
+      },
+      {
+        "start": 104.58,
+        "end": 114.56,
+        "text": "I only have my heart."
+      },
+      {
+        "start": 114.56,
+        "end": 115.96,
+        "text": "What are you doing here?"
+      },
+      {
+        "start": 115.96,
+        "end": 118.16,
+        "text": "I'm the only one on the team today. Don't you know that?"
+      },
+      {
+        "start": 118.16,
+        "end": 119.96,
+        "text": "We're getting married tomorrow anyway."
+      },
+      {
+        "start": 119.96,
+        "end": 122.36,
+        "text": "Do you have any sense?"
+      },
+      {
+        "start": 122.36,
+        "end": 123.96,
+        "text": "I didn't tell you to come here."
+      },
+      {
+        "start": 123.96,
+        "end": 126.36,
+        "text": "I think you've drunk too much. So..."
+      },
+      {
+        "start": 126.36,
+        "end": 127.36,
+        "text": "It's okay."
+      },
+      {
+        "start": 127.36,
+        "end": 129.56,
+        "text": "Let's continue."
+      },
+      {
+        "start": 129.56,
+        "end": 131.76,
+        "text": "Let's not break the rules today."
+      }
+    ]
+  },
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "image_path": "frames/frame_001_0000.00s.jpg",
+      "source": "uniform",
+      "scene_score": null,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 2.17,
+      "image_path": "frames/frame_002_0002.17s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.4941,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 4.27,
+      "image_path": "frames/frame_003_0004.27s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.6399,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 6.77,
+      "image_path": "frames/frame_004_0006.77s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.6853,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 9.23,
+      "image_path": "frames/frame_005_0009.23s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.6765,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 34.73,
+      "image_path": "frames/frame_006_0034.73s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.4021,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 59.93,
+      "image_path": "frames/frame_007_0059.93s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.4366,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 82.1,
+      "image_path": "frames/frame_008_0082.10s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.3889,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 105.5,
+      "image_path": "frames/frame_009_0105.50s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.3961,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 110.7,
+      "image_path": "frames/frame_010_0110.70s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.6105,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 117.97,
+      "image_path": "frames/frame_011_0117.97s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.5988,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 119.8,
+      "image_path": "frames/frame_012_0119.80s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.6692,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 122.43,
+      "image_path": "frames/frame_013_0122.43s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.5684,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 123.97,
+      "image_path": "frames/frame_014_0123.97s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.5603,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 125.3,
+      "image_path": "frames/frame_015_0125.30s.jpg",
+      "source": "scene_change",
+      "scene_score": 0.3734,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    },
+    {
+      "timestamp": 142.68,
+      "image_path": "frames/frame_016_0142.68s.jpg",
+      "source": "ending",
+      "scene_score": null,
+      "ocr_text": "",
+      "ocr_confidence": null,
+      "caption": ""
+    }
+  ],
+  "issues": [
+    {
+      "id": "rule-2-ktv",
+      "severity": "warning",
+      "category": "Forbidden-term violation",
+      "title": "The draft retains a term forbidden by the supplied rules",
+      "explanation": "The model derived this constraint from requirement 2, not from a built-in term list.",
+      "evidence": "Venue. Adapt the Chinese KTV room into an upscale private lounge hosting Aarav's bachelor party. Do not retain the term \"KTV\".",
+      "timecode": "00:00.00–02:22.80",
+      "proposal": "Replace “KTV” with the target-culture equivalent specified by requirement 2.",
+      "confidence": 1.0,
+      "detected_by": "input-derived constraint"
+    },
+    {
+      "id": "alignment-rules-6-1839",
+      "severity": "critical",
+      "category": "Missing required beat",
+      "title": "A rule-protected source beat is missing",
+      "explanation": "The alignment model linked this source evidence to requirement(s) 6 and found no overlapping adapted block (score 0.00).",
+      "evidence": "Reminds Meera Khanna that Aarav Malhotra once nearly fell out with his family because of Naina Kapoor.",
+      "timecode": "00:18.40–00:23.44",
+      "proposal": "Restore the meaning of this evidence while applying requirement(s) 6: Reminds Meera Khanna that Aarav Malhotra once nearly fell out with his family because of Naina Kapoor.",
+      "confidence": 1.0,
+      "detected_by": "TF-IDF + timestamp alignment model"
+    },
+    {
+      "id": "name-huo-mingxi",
+      "severity": "warning",
+      "category": "Character-map mismatch",
+      "title": "A source character name remains in the adaptation",
+      "explanation": "This flag was generated by comparing the draft with the supplied character map.",
+      "evidence": "Character map: Huo Mingxi → Aarav Malhotra",
+      "timecode": "00:36.54–00:48.90",
+      "proposal": "Replace “Huo Mingxi” with “Aarav Malhotra”.",
+      "confidence": 1.0,
+      "detected_by": "input-derived constraint"
+    },
+    {
+      "id": "alignment-rules-4-5-8812",
+      "severity": "warning",
+      "category": "Semantic drift",
+      "title": "The adaptation changes a rule-protected meaning",
+      "explanation": "The alignment model linked this source evidence to requirement(s) 4, 5 and found low semantic preservation (score 0.49).",
+      "evidence": "Says Naina Kapoor already knows whom he loves and describes his relationship with Meera Khanna as only a family-arranged marriage with no emotional bond. Says he can give Meera Khanna the title of Mrs. Huo, but not his love; his heart belongs only to Naina Kapoor.",
+      "timecode": "01:28.12–01:45.84",
+      "proposal": "Restore the meaning of this evidence while applying requirement(s) 4, 5: Says Naina Kapoor already knows whom he loves and describes his relationship with Meera Khanna as only a family-arranged marriage with no emotional bond. Says he can give Meera Khanna the title of Mrs. Huo, but not his love; his heart belongs only to Naina Kapoor.",
+      "confidence": 0.512,
+      "detected_by": "TF-IDF + timestamp alignment model"
+    },
+    {
+      "id": "alignment-rules-8-13353",
+      "severity": "warning",
+      "category": "Semantic drift",
+      "title": "The adaptation changes a rule-protected meaning",
+      "explanation": "The alignment model linked this source evidence to requirement(s) 8 and found low semantic preservation (score 0.28).",
+      "evidence": "Fast profile close-up as Meera Khanna throws the water directly into Aarav Malhotra's face. Tight close-up on Meera Khanna's controlled but devastated face, holding on the confrontation as the episode ends.",
+      "timecode": "02:13.53–02:22.80",
+      "proposal": "Restore the meaning of this evidence while applying requirement(s) 8: Fast profile close-up as Meera Khanna throws the water directly into Aarav Malhotra's face. Tight close-up on Meera Khanna's controlled but devastated face, holding on the confrontation as the episode ends.",
+      "confidence": 0.722,
+      "detected_by": "TF-IDF + timestamp alignment model"
+    }
+  ],
+  "limitations": [
+    "OCR was skipped because the required Tesseract language pack 'chi_sim' is not installed.",
+    "No vision-model key was provided; sampled frames are retained for human review but actions are not auto-captioned.",
+    "QA used the supplied human-verified source script; ASR/OCR outputs remain available as raw audit evidence."
+  ],
+  "output_directory": "/workspace/scratch/39e3e8fc0a58/raw_runs_final/run-20261108-131225-6c956f"
+}
