@@ -1,0 +1,175 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: On the eve of her wedding, Bu Wan learns that her fiance's former love has returned, overhears him dismiss their engagement as a loveless family arrangement, and answers the humiliation by throwing a drink in his face.
+CONTINUITY NOTES: First episode of the series. Establishes Bu Wan's ten-year devotion to Huo Mingxi, Mu Xue's return, Huo Mingxi's unresolved love for Mu Xue, and the rupture immediately before the wedding.
+SOURCE NOTE: Human-verified semantic English script derived from the officially unlocked NetShort episode of 月色不晚. Dialogue preserves meaning rather than reproducing the Chinese audio verbatim. Source duration: 02:22.80.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. KTV CLUB / PRIVATE PARTY ROOM – NIGHT
+Scene start: 00:00.00
+Scene end: 02:22.80
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:02.17)
+Rear medium shot following Bu Wan in a white outfit as she climbs a curved illuminated staircase while speaking on her phone.
+
+**QIAOQIAO (PHONE) (Urgent, Gossipy):**
+Start: (00:00.00) | End: (00:03.24)
+Tells Bu Wan that Mu Xue has returned to China.
+
+**CAMERA:**
+Start: (00:02.17) | End: (00:06.77)
+Front medium close-ups of Bu Wan continuing upstairs, her expression attentive but controlled.
+
+**QIAOQIAO (PHONE) (Suspicious):**
+Start: (00:04.14) | End: (00:06.66)
+Wonders whether Mu Xue returned because she heard that Bu Wan and Huo Mingxi are about to marry.
+
+**BU WAN (Dismissive, Guarded):**
+Start: (00:07.18) | End: (00:09.26)
+Says Mu Xue's return has nothing to do with her.
+
+**CAMERA:**
+Start: (00:09.23) | End: (00:17.07)
+Establishing shots reveal a neon-lit private club, a performer at the front, drinks on a glass table, and Huo Mingxi seated among friends.
+
+**QIAOQIAO (PHONE) (Insistent):**
+Start: (00:18.40) | End: (00:23.44)
+Reminds Bu Wan that Huo Mingxi once nearly fell out with his family because of Mu Xue.
+
+**CAMERA:**
+Start: (00:17.07) | End: (00:24.30)
+Alternating close-ups of Bu Wan walking through the club and Huo Mingxi drinking inside the party room.
+
+**BU WAN (Reassuring Herself):**
+Start: (00:24.30) | End: (00:28.30)
+Ends the discussion, saying Mu Xue is already in Huo Mingxi's past, then hangs up.
+
+**ACTION:**
+Start: (00:28.30) | End: (00:31.90)
+A male attendant meets Bu Wan and guides her toward the private room.
+
+**ATTENDANT (Polite):**
+Start: (00:29.08) | End: (00:30.24)
+Invites Miss Bu to follow him.
+
+**CAMERA:**
+Start: (00:31.90) | End: (00:36.07)
+Wide view of the bachelor party. Friends sit around Huo Mingxi while a woman performs beneath blue lighting.
+
+**SHEN KUO (Playful, Loud):**
+Start: (00:36.54) | End: (00:41.20)
+Announces that Huo Mingxi has lost the game and asks the group to choose his punishment.
+
+**CAMERA:**
+Start: (00:36.07) | End: (00:43.87)
+Rapid close-ups move between Shen Kuo, the laughing guests, Huo Mingxi, and Bu Wan approaching the closed room.
+
+**SHEN KUO (Teasing):**
+Start: (00:44.54) | End: (00:48.90)
+Suggests that Huo Mingxi call the woman he loves most in the world.
+
+**ACTION:**
+Start: (00:42.47) | End: (00:49.13)
+Bu Wan reaches for the door but pauses as the dare is proposed.
+
+**ZHONG YI (Cautious):**
+Start: (00:53.43) | End: (00:55.89)
+Objects that Huo Mingxi is about to marry and warns the others not to create trouble.
+
+**SHEN KUO (Backing Down):**
+Start: (00:56.33) | End: (00:58.93)
+Offers to replace the dare with something else.
+
+**HUO MINGXI (Calm, Resolute):**
+Start: (00:59.11) | End: (01:01.41)
+Says he accepts the loss and will make the call.
+
+**CAMERA:**
+Start: (01:02.07) | End: (01:08.17)
+Close-ups show Huo Mingxi selecting a contact and lifting the phone while Bu Wan waits just beyond the doorway.
+
+**ACTION:**
+Start: (01:08.17) | End: (01:18.03)
+The call connects. Huo Mingxi leans forward, suddenly serious. Bu Wan listens unseen from outside.
+
+**HUO MINGXI (Soft, Hopeful):**
+Start: (01:19.32) | End: (01:26.56)
+Tells Mu Xue he heard she had returned, asks how she has been, and requests a chance to meet her.
+
+**CAMERA:**
+Start: (01:19.43) | End: (01:27.00)
+Shot-reverse-shot alternates between Huo Mingxi speaking on the phone and Bu Wan's smile fading behind the door.
+
+**MU XUE (PHONE) (Faint, Questioning):**
+Start: (01:26.90) | End: (01:28.03)
+Raises his impending marriage.
+
+**HUO MINGXI (Earnest, Dismissive of the Engagement):**
+Start: (01:28.12) | End: (01:34.24)
+Says Mu Xue already knows whom he loves and describes his relationship with Bu Wan as only a family-arranged marriage with no emotional bond.
+
+**ACTION:**
+Start: (01:31.60) | End: (01:38.03)
+Bu Wan freezes, wounded. Her hand rests on the door handle, but she cannot bring herself to enter.
+
+**HUO MINGXI (Intimate, Uncompromising):**
+Start: (01:39.34) | End: (01:45.84)
+Says he can give Bu Wan the title of Mrs. Huo, but not his love; his heart belongs only to Mu Xue.
+
+**CAMERA:**
+Start: (01:39.33) | End: (01:47.70)
+Tight close-ups contrast Huo Mingxi's emotional confession with Bu Wan silently absorbing the betrayal.
+
+**ACTION:**
+Start: (01:47.70) | End: (01:53.53)
+Bu Wan finally pushes open the door. The room falls quiet as she walks in and faces Huo Mingxi.
+
+**CAMERA:**
+Start: (01:53.53) | End: (01:58.00)
+Wide shot frames Bu Wan standing alone before the seated party, followed by a close-up of Huo Mingxi rising in irritation.
+
+**HUO MINGXI (Irritated, Defensive):**
+Start: (01:53.44) | End: (01:57.88)
+Demands to know why Bu Wan is there and reminds her that this is his bachelor party.
+
+**BU WAN (Hurt, Accusing):**
+Start: (01:57.88) | End: (02:01.22)
+Points out that their wedding is tomorrow and challenges his eagerness to behave this way before it.
+
+**ZHONG YI (Uneasy, Mediating):**
+Start: (02:02.44) | End: (02:05.80)
+Explains that he asked Bu Wan to come because Huo Mingxi had been drinking heavily.
+
+**HUO MINGXI (Dismissive, Drunk):**
+Start: (02:06.18) | End: (02:08.22)
+Tells everyone to ignore Bu Wan and continue the party.
+
+**HUO MINGXI (Defiant, Toasting):**
+Start: (02:09.48) | End: (02:11.30)
+Raises his glass and calls for everyone to drink until they are drunk.
+
+**ACTION:**
+Start: (02:12.07) | End: (02:13.53)
+Bu Wan strides toward the table, takes a glass of water, and turns sharply toward Huo Mingxi.
+
+**CAMERA:**
+Start: (02:13.53) | End: (02:15.60)
+Fast profile close-up as Bu Wan throws the water directly into Huo Mingxi's face.
+
+**SOUND FX:**
+Start: (02:14.00) | End: (02:15.20)
+Sharp splash followed by a sudden drop in the party noise.
+
+**ACTION:**
+Start: (02:15.60) | End: (02:20.20)
+Huo Mingxi sits drenched and stunned. Shen Kuo and Zhong Yi stare at Bu Wan in disbelief.
+
+**CAMERA:**
+Start: (02:20.20) | End: (02:22.80)
+Tight close-up on Bu Wan's controlled but devastated face, holding on the confrontation as the episode ends.
+
+--- SCRIPT END ---
