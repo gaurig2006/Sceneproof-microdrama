@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Evidence-linked QA for adapted microdrama scripts." />
+  <title>SceneProof — Adaptation Review</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to workspace</a>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="SceneProof home">
+      <span class="brand-mark" aria-hidden="true">SP</span>
+      <span><strong>SceneProof</strong><small>Adaptation review</small></span>
+    </a>
+    <div class="workspace-context" aria-label="Current workspace">
+      <span>Projects</span><b aria-hidden="true">/</b><strong id="projectLabel">Sample episode</strong>
+    </div>
+    <div class="top-actions">
+      <div class="runtime-status"><span class="status-dot"></span><span id="runtimeBadge">Verified sample mode</span></div>
+      <button class="icon-button" id="themeButton" type="button" aria-label="Toggle high contrast" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg>
+      </button>
+      <div class="avatar" aria-label="Head editor">HE</div>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Review progress">
+      <div class="side-section">
+        <p class="side-label">Run progress</p>
+        <ol class="pipeline">
+          <li class="done"><span>1</span><div><strong>Ingest</strong><small>Media and metadata</small></div></li>
+          <li class="done"><span>2</span><div><strong>Transcribe</strong><small>Whisper ASR</small></div></li>
+          <li class="done"><span>3</span><div><strong>Inspect</strong><small>Frames and OCR</small></div></li>
+          <li class="active"><span>4</span><div><strong>Compare</strong><small>Per-run alignment</small></div></li>
+          <li><span>5</span><div><strong>Approve</strong><small>Editorial decisions</small></div></li>
+        </ol>
+      </div>
+
+      <div class="side-section run-summary">
+        <div class="summary-title"><span>Verified run</span><strong id="verifiedRunTime">--:--</strong></div>
+        <dl>
+          <div><dt>ASR segments</dt><dd id="asrCountSide">-</dd></div>
+          <div><dt>Frames</dt><dd id="frameCountSide">-</dd></div>
+          <div><dt>Flags</dt><dd id="flagCountSide">-</dd></div>
+        </dl>
+      </div>
+
+      <div class="side-section side-links">
+        <p class="side-label">Resources</p>
+        <a id="sourceEpisodeLink" href="#" target="_blank" rel="noreferrer">Source episode <span>↗</span></a>
+        <a href="https://github.com/gaurig2006/Sceneproof-microdrama/tree/main/sample_outputs/episode_01" target="_blank" rel="noreferrer">Run evidence <span>↗</span></a>
+        <a href="https://github.com/gaurig2006/Sceneproof-microdrama" target="_blank" rel="noreferrer">Python source <span>↗</span></a>
+      </div>
+    </aside>
+
+    <main class="main" id="mainContent">
+      <section class="workspace-header" aria-labelledby="pageTitle">
+        <div>
+          <p class="eyebrow">EPISODE REVIEW</p>
+          <h1 id="pageTitle">Indian adaptation QA</h1>
+          <p>Compare the writer draft with timestamped source evidence, then approve only the changes you want.</p>
+        </div>
+        <dl class="header-meta">
+          <div><dt>Inputs</dt><dd>4 of 4 ready</dd></div>
+          <div><dt>Review mode</dt><dd>Human approval</dd></div>
+          <div><dt>Model</dt><dd>Per-run alignment</dd></div>
+        </dl>
+      </section>
+
+      <nav class="tabs" aria-label="Workspace views">
+        <button class="tab active" type="button" data-tab="inputs" aria-current="page">Setup</button>
+        <button class="tab" type="button" data-tab="review">Review <span id="issueBadge">0</span></button>
+        <button class="tab" type="button" data-tab="output">Approved output</button>
+      </nav>
+
+      <section class="tab-panel active" id="inputsTab">
+        <section class="setup-section" aria-labelledby="inputHeading">
+          <div class="section-heading">
+            <div><p class="section-index">01</p><div><h2 id="inputHeading">Review inputs</h2><p>Use the supplied sample or replace any input before running the comparison.</p></div></div>
+            <span class="section-state"><span class="status-dot"></span>All required inputs ready</span>
+          </div>
+
+          <div class="input-strip" aria-label="Review input navigation">
+            <button class="input-pill selected" type="button" data-focus="videoPanel">
+              <span class="input-number">01</span><span><strong>Source video</strong><small>Verified sample</small></span><b>Ready</b>
+            </button>
+            <button class="input-pill" type="button" data-focus="scriptPanel">
+              <span class="input-number">02</span><span><strong>Writer draft</strong><small id="draftInputMeta">Loaded screenplay</small></span><b id="draftInputState">Ready</b>
+            </button>
+            <button class="input-pill" type="button" data-focus="mapPanel">
+              <span class="input-number">03</span><span><strong>Character map</strong><small id="mapInputMeta">Approved mappings</small></span><b id="mapInputState">Ready</b>
+            </button>
+            <button class="input-pill" type="button" data-focus="rulesPanel">
+              <span class="input-number">04</span><span><strong>Adaptation brief</strong><small id="rulesInputMeta">Production requirements</small></span><b id="rulesInputState">Ready</b>
+            </button>
+          </div>
+
+          <div class="input-grid">
+            <article class="panel video-panel" id="videoPanel">
+              <div class="panel-head">
+                <div><p class="panel-kicker">SOURCE EVIDENCE</p><h3>Episode video</h3></div>
+                <span class="verified" id="sourceMode">Verified sample</span>
+              </div>
+              <div class="video-stage" id="videoStage">
+                <video id="videoPreview" controls playsinline></video>
+                <div class="video-placeholder" id="videoPlaceholder">
+                  <div class="play-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 7 8 5-8 5z"/></svg></div>
+                  <strong id="sourceTitle">Sample episode</strong>
+                  <small id="sourceSubtitle">Loading source metadata…</small>
+                  <label class="upload-button" for="videoInput">Replace video</label>
+                  <input id="videoInput" type="file" accept="video/*" hidden />
+                </div>
+                <div class="timecode" id="sourceTimecode">--:-- — --:--</div>
+              </div>
+              <div class="source-meta">
+                <span><b id="transcriptCount">-</b> transcript segments</span>
+                <span><b id="frameCount">-</b> evidence frames</span>
+                <a id="groundTruthDownload" href="#" download>Download transcript</a>
+              </div>
+            </article>
+
+            <article class="panel editor-panel" id="scriptPanel">
+              <div class="panel-head">
+                <div><p class="panel-kicker">ADAPTED SCREENPLAY</p><h3>Writer draft</h3></div>
+                <button class="text-action" id="loadScriptButton" type="button">Restore sample</button>
+              </div>
+              <label class="sr-only" for="scriptInput">Writer's adapted script</label>
+              <textarea id="scriptInput" spellcheck="false"></textarea>
+              <div class="editor-foot"><span id="scriptStats">0 words · 0 blocks</span><a id="draftDownload" href="#" download>Download draft</a></div>
+            </article>
+          </div>
+
+          <div class="secondary-grid">
+            <article class="panel compact-panel" id="mapPanel">
+              <div class="panel-head">
+                <div><p class="panel-kicker">NORMALIZATION</p><h3>Character map</h3></div>
+                <span class="count-chip" id="mapCount">0 mappings</span>
+              </div>
+              <div class="mapping-list" id="mappingList"></div>
+              <details>
+                <summary>Edit structured JSON</summary>
+                <label class="sr-only" for="mapInput">Character map JSON</label>
+                <textarea id="mapInput" spellcheck="false"></textarea>
+              </details>
+              <p class="field-message" id="mapValidation" role="status" aria-live="polite"></p>
+            </article>
+
+            <article class="panel compact-panel" id="rulesPanel">
+              <div class="panel-head">
+                <div><p class="panel-kicker">LOCALIZATION BRIEF</p><h3>Adaptation requirements</h3></div>
+                <span class="count-chip" id="rulesCount">0 rules</span>
+              </div>
+              <div class="rule-tags" id="ruleTags"></div>
+              <details>
+                <summary>Edit full requirements</summary>
+                <label class="sr-only" for="rulesInput">Adaptation requirements</label>
+                <textarea id="rulesInput" spellcheck="false"></textarea>
+              </details>
+              <p class="field-message" id="rulesValidation" role="status" aria-live="polite"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="ai-pipeline" aria-labelledby="pipelineHeading">
+          <div class="section-heading compact">
+            <div><p class="section-index">02</p><div><h2 id="pipelineHeading">Evidence processing</h2><p>The browser fits a fresh comparison model. The Python runtime additionally processes new video.</p></div></div>
+            <span class="runtime-chip" id="runtimeChip">Checking backend…</span>
+          </div>
+          <div class="model-flow">
+            <div class="model-node" data-stage="ingest"><b>01</b><div><strong>Media ingest</strong><small>Metadata and 16 kHz audio</small></div></div>
+            <div class="model-node" data-stage="speech"><b>02</b><div><strong>Speech</strong><small>Timestamped Whisper transcript</small></div></div>
+            <div class="model-node" data-stage="vision"><b>03</b><div><strong>Visual evidence</strong><small>Scene frames and optional OCR</small></div></div>
+            <div class="model-node" data-stage="qa"><b>04</b><div><strong>Alignment</strong><small>Per-run vectors and time matching</small></div></div>
+          </div>
+          <div class="run-facts" id="runFacts">
+            <span><b>Speech model</b> Whisper small</span>
+            <span><b>Comparison</b> Fresh vectors per run</span>
+            <span><b>Decisions</b> Human-controlled edits</span>
+            <span><b>Optional</b> Configured vision model</span>
+          </div>
+          <details class="method-details">
+            <summary>Method and limitations</summary>
+            <p class="honesty-note" id="pipelineNote">The hosted page fits a new alignment model on the current evidence, script, character map and rules. Run the included Python backend to transcribe and sample frames from a completely new video.</p>
+          </details>
+        </section>
+
+        <div class="runbar" role="status" aria-live="polite">
+          <div class="run-status"><span class="ready-dot"></span><span><strong id="runMode">Ready with verified evidence</strong><small id="runHint">Choose another episode for a fresh backend run</small></span></div>
+          <button class="secondary-button" id="resetButton" type="button">Reset sample</button>
+          <button class="primary-button" id="runButton" type="button"><span>Run review</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5"/></svg></button>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="reviewTab">
+        <div class="review-empty" id="reviewEmpty">
+          <div class="empty-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h5M8 16h4"/></svg></div>
+          <h2>No review has been run</h2>
+          <p>Confirm the four inputs, then run the alignment model to generate evidence-linked issues.</p>
+          <button class="primary-button" id="emptySetupButton" type="button">Return to setup</button>
+        </div>
+
+        <div id="reviewContent" hidden>
+          <div class="review-toolbar">
+            <div><p class="panel-kicker">MODEL OUTPUT</p><h2>Review results</h2><p>Every flag keeps its source evidence, confidence and reversible proposal.</p></div>
+            <div class="review-actions">
+              <div class="summary-chips" aria-label="Issue summary">
+                <span class="critical-chip"><b>0</b> critical</span>
+                <span class="warning-chip"><b>0</b> warnings</span>
+                <span class="resolved-chip"><b id="resolvedCount">0</b> decided</span>
+              </div>
+              <button class="secondary-button compact-button" id="nextIssueButton" type="button">Next undecided</button>
+            </div>
+          </div>
+
+          <div class="timeline-panel" aria-label="Issue timeline">
+            <div class="timeline-head"><span>Source timeline</span><span id="timelineRange">00:00 — 00:00</span></div>
+            <div class="timeline-track" id="timelineTrack"></div>
+          </div>
+
+          <div class="review-filters" aria-label="Filter review issues">
+            <button class="filter-button active" type="button" data-filter="all">All <span id="filterAllCount">0</span></button>
+            <button class="filter-button" type="button" data-filter="critical">Critical <span id="filterCriticalCount">0</span></button>
+            <button class="filter-button" type="button" data-filter="warning">Warnings <span id="filterWarningCount">0</span></button>
+            <button class="filter-button" type="button" data-filter="pending">Undecided <span id="filterPendingCount">0</span></button>
+          </div>
+
+          <div class="review-layout">
+            <aside class="issue-rail" id="issueRail" aria-label="Detected issues"></aside>
+            <article class="script-paper">
+              <div class="paper-head"><span id="paperEpisodeLabel">EPISODE · INDIAN ADAPTATION</span><span>REVISION A</span></div>
+              <div id="annotatedScript" class="script-content"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="outputTab">
+        <div class="output-head">
+          <div><p class="panel-kicker">APPROVED OUTPUT</p><h2>Clean revised screenplay</h2><p>Only accepted proposals are applied. Rejected and intentional differences remain unchanged.</p></div>
+          <div class="output-actions">
+            <button class="secondary-button" id="downloadReviewButton" type="button">Download review</button>
+            <button class="primary-button" id="downloadCleanButton" type="button">Download screenplay</button>
+          </div>
+        </div>
+        <div class="decision-banner" id="decisionBanner">
+          <span class="ready-dot"></span><strong>No decisions yet.</strong><span>Return to Review and decide each suggestion.</span>
+        </div>
+        <pre id="cleanScript" class="clean-script"></pre>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
