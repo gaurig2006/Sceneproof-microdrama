@@ -1,0 +1,62 @@
+SOURCE EVIDENCE BUNDLE
+
+AUDIO TRANSCRIPT / TRANSLATION
+[00:00.00–00:02.00] Wanwan, did you hear that?
+[00:02.00–00:04.20] Mo Xue is going back to her country!
+[00:04.20–00:07.20] He didn't just hear that you and Huo Mianxi are getting married, right?
+[00:07.20–00:09.60] Go back and come back. It has nothing to do with me.
+[00:09.60–00:19.60] How does it have nothing to do with me?
+[00:19.60–00:21.80] Back then, Huo Mianxi was doing it for him.
+[00:21.80–00:24.20] He almost got into a fight with his family.
+[00:24.20–00:25.40] Okay, Qiao Qiao.
+[00:25.40–00:27.60] Mo Xue has already been in the past for Mianxi.
+[00:27.60–00:29.00] I'll hang up now.
+[00:29.00–00:36.70] Miss Mo, this way please.
+[00:36.70–00:38.10] Hey, you lost.
+[00:38.10–00:42.50] Please help me think about how to save Huo Shao.
+[00:42.50–00:43.90] Thank you.
+[00:44.70–00:53.61] Why don't you call the girl you love the most in your life, Huo Shao?
+[00:53.61–00:56.61] I'm not married yet. Don't make any trouble.
+[00:56.61–00:59.21] I think it's better to have another one.
+[00:59.21–01:00.01] It's okay.
+[01:00.01–01:19.51] I'm willing to accept it.
+[01:19.51–01:20.71] It's okay.
+[01:20.71–01:22.31] I just heard that you're going back to your country.
+[01:22.31–01:24.51] I want to ask you how you've been doing lately.
+[01:24.51–01:28.11] Can you give me a chance to meet you?
+[01:28.11–01:29.31] Marry?
+[01:29.31–01:31.91] You clearly know who I like.
+[01:31.91–01:33.51] I'm his family member.
+[01:33.51–01:35.11] I have nothing to do with him.
+[01:35.11–01:36.71] I'm his family member.
+[01:36.71–01:39.51] I have nothing to do with him.
+[01:39.51–01:41.31] I can give him the name Huo Shao.
+[01:41.31–01:44.58] But he can't be in love.
+[01:44.58–01:54.56] I only have my heart.
+[01:54.56–01:55.96] What are you doing here?
+[01:55.96–01:58.16] I'm the only one on the team today. Don't you know that?
+[01:58.16–01:59.96] We're getting married tomorrow anyway.
+[01:59.96–02:02.36] Do you have any sense?
+[02:02.36–02:03.96] I didn't tell you to come here.
+[02:03.96–02:06.36] I think you've drunk too much. So...
+[02:06.36–02:07.36] It's okay.
+[02:07.36–02:09.56] Let's continue.
+[02:09.56–02:11.76] Let's not break the rules today.
+
+VISUAL / OCR EVIDENCE
+[00:00.00] Extracted uniform frame for human verification
+[00:02.17] Extracted scene_change frame for human verification
+[00:04.27] Extracted scene_change frame for human verification
+[00:06.77] Extracted scene_change frame for human verification
+[00:09.23] Extracted scene_change frame for human verification
+[00:34.73] Extracted scene_change frame for human verification
+[00:59.93] Extracted scene_change frame for human verification
+[01:22.10] Extracted scene_change frame for human verification
+[01:45.50] Extracted scene_change frame for human verification
+[01:50.70] Extracted scene_change frame for human verification
+[01:57.97] Extracted scene_change frame for human verification
+[01:59.80] Extracted scene_change frame for human verification
+[02:02.43] Extracted scene_change frame for human verification
+[02:03.97] Extracted scene_change frame for human verification
+[02:05.30] Extracted scene_change frame for human verification
+[02:22.68] Extracted ending frame for human verification
