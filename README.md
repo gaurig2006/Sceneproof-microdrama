@@ -4,7 +4,7 @@ SceneProof reviews a localized microdrama screenplay against evidence extracted 
 
 **Author:** Gauri Gupta · Roll no. 230415 · Earth Sciences  
 **Assignment:** Kuku AI Generalist — Problem 3: Find your own problem  
-**GitHub Pages:** https://gaurig2006.github.io/sceneproof-microdrama-qa/
+**GitHub Pages:** https://gaurig2006.github.io/Sceneproof-microdrama/
 
 ## Why this problem
 
@@ -12,6 +12,13 @@ After discussing the content workflow with a friend familiar with the industry, 
 
 I did not choose Problem 1 because credible promo ranking needs watch-time, CTR, or conversion labels that were unavailable for a valid three-hour evaluation. I did not choose Problem 2 because an honest legal assistant needs jurisdiction-aware retrieval, citations, privacy safeguards, and escalation—too high-stakes and broad for this prototype window.
 
+## GitHub Pages deployment (no API key required)
+
+1. Use the public repository `gaurig2006/Sceneproof-microdrama`.
+2. Upload the contents of this folder to the repository root and commit to `main`.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/docs`, then save.
+5. After GitHub finishes publishing, open `https://gaurig2006.github.io/Sceneproof-microdrama/` in an incognito window.
 
 The Pages site is a static verified demo. New-video Whisper/frame extraction runs through the Python backend locally or on a compute host.
 
@@ -46,10 +53,10 @@ The public-source episode video is intentionally not committed. Point `--video` 
 ```bash
 python -m sceneproof_ai.cli \
   --video /path/to/episode-01.mp4 \
-  --script dist/data/moonlight_is_not_late_ep01_flawed_indian_adaptation.txt \
-  --character-map dist/data/moonlight_is_not_late_character_map.json \
-  --rules dist/data/moonlight_is_not_late_adaptation_rules.txt \
-  --ground-truth dist/data/moonlight_is_not_late_ep01_ground_truth.txt \
+  --script docs/data/moonlight_is_not_late_ep01_flawed_indian_adaptation.txt \
+  --character-map docs/data/moonlight_is_not_late_character_map.json \
+  --rules docs/data/moonlight_is_not_late_adaptation_rules.txt \
+  --ground-truth docs/data/moonlight_is_not_late_ep01_ground_truth.txt \
   --out runs
 ```
 
@@ -81,6 +88,14 @@ export SCENEPROOF_MODEL=<provider-model>   # selected at runtime, never embedded
 ```
 
 Gemini automatically uses its OpenAI-compatible endpoint when `GEMINI_API_KEY` is present. `SCENEPROOF_BASE_URL` may point to any other OpenAI-compatible provider. Without both a key and model name, Whisper plus the per-run alignment model still works; secrets are never shipped to the browser or source archive.
+
+Verify authentication and model availability with a minimal request:
+
+```bash
+python scripts/check_provider.py
+```
+
+The check returns only `ok`, `model`, and `base_url`; it never prints credentials. Keep provider credentials in a backend environment variable or secret manager, never in GitHub, browser JavaScript, `.env` committed to source control, screenshots, or the report.
 
 ## Test
 
