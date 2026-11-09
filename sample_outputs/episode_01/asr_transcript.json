@@ -1,0 +1,215 @@
+{
+  "engine": "faster-whisper",
+  "model": "small",
+  "task": "translate",
+  "detected_language": "zh",
+  "language_probability": 0.9975,
+  "segment_count": 41,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Wanwan, did you hear that?"
+    },
+    {
+      "start": 2.0,
+      "end": 4.2,
+      "text": "Mo Xue is going back to her country!"
+    },
+    {
+      "start": 4.2,
+      "end": 7.2,
+      "text": "He didn't just hear that you and Huo Mianxi are getting married, right?"
+    },
+    {
+      "start": 7.2,
+      "end": 9.6,
+      "text": "Go back and come back. It has nothing to do with me."
+    },
+    {
+      "start": 9.6,
+      "end": 19.6,
+      "text": "How does it have nothing to do with me?"
+    },
+    {
+      "start": 19.6,
+      "end": 21.8,
+      "text": "Back then, Huo Mianxi was doing it for him."
+    },
+    {
+      "start": 21.8,
+      "end": 24.2,
+      "text": "He almost got into a fight with his family."
+    },
+    {
+      "start": 24.2,
+      "end": 25.4,
+      "text": "Okay, Qiao Qiao."
+    },
+    {
+      "start": 25.4,
+      "end": 27.6,
+      "text": "Mo Xue has already been in the past for Mianxi."
+    },
+    {
+      "start": 27.6,
+      "end": 29.0,
+      "text": "I'll hang up now."
+    },
+    {
+      "start": 29.0,
+      "end": 36.7,
+      "text": "Miss Mo, this way please."
+    },
+    {
+      "start": 36.7,
+      "end": 38.1,
+      "text": "Hey, you lost."
+    },
+    {
+      "start": 38.1,
+      "end": 42.5,
+      "text": "Please help me think about how to save Huo Shao."
+    },
+    {
+      "start": 42.5,
+      "end": 43.9,
+      "text": "Thank you."
+    },
+    {
+      "start": 44.7,
+      "end": 53.61,
+      "text": "Why don't you call the girl you love the most in your life, Huo Shao?"
+    },
+    {
+      "start": 53.61,
+      "end": 56.61,
+      "text": "I'm not married yet. Don't make any trouble."
+    },
+    {
+      "start": 56.61,
+      "end": 59.21,
+      "text": "I think it's better to have another one."
+    },
+    {
+      "start": 59.21,
+      "end": 60.01,
+      "text": "It's okay."
+    },
+    {
+      "start": 60.01,
+      "end": 79.51,
+      "text": "I'm willing to accept it."
+    },
+    {
+      "start": 79.51,
+      "end": 80.71,
+      "text": "It's okay."
+    },
+    {
+      "start": 80.71,
+      "end": 82.31,
+      "text": "I just heard that you're going back to your country."
+    },
+    {
+      "start": 82.31,
+      "end": 84.51,
+      "text": "I want to ask you how you've been doing lately."
+    },
+    {
+      "start": 84.51,
+      "end": 88.11,
+      "text": "Can you give me a chance to meet you?"
+    },
+    {
+      "start": 88.11,
+      "end": 89.31,
+      "text": "Marry?"
+    },
+    {
+      "start": 89.31,
+      "end": 91.91,
+      "text": "You clearly know who I like."
+    },
+    {
+      "start": 91.91,
+      "end": 93.51,
+      "text": "I'm his family member."
+    },
+    {
+      "start": 93.51,
+      "end": 95.11,
+      "text": "I have nothing to do with him."
+    },
+    {
+      "start": 95.11,
+      "end": 96.71,
+      "text": "I'm his family member."
+    },
+    {
+      "start": 96.71,
+      "end": 99.51,
+      "text": "I have nothing to do with him."
+    },
+    {
+      "start": 99.51,
+      "end": 101.31,
+      "text": "I can give him the name Huo Shao."
+    },
+    {
+      "start": 101.31,
+      "end": 104.58,
+      "text": "But he can't be in love."
+    },
+    {
+      "start": 104.58,
+      "end": 114.56,
+      "text": "I only have my heart."
+    },
+    {
+      "start": 114.56,
+      "end": 115.96,
+      "text": "What are you doing here?"
+    },
+    {
+      "start": 115.96,
+      "end": 118.16,
+      "text": "I'm the only one on the team today. Don't you know that?"
+    },
+    {
+      "start": 118.16,
+      "end": 119.96,
+      "text": "We're getting married tomorrow anyway."
+    },
+    {
+      "start": 119.96,
+      "end": 122.36,
+      "text": "Do you have any sense?"
+    },
+    {
+      "start": 122.36,
+      "end": 123.96,
+      "text": "I didn't tell you to come here."
+    },
+    {
+      "start": 123.96,
+      "end": 126.36,
+      "text": "I think you've drunk too much. So..."
+    },
+    {
+      "start": 126.36,
+      "end": 127.36,
+      "text": "It's okay."
+    },
+    {
+      "start": 127.36,
+      "end": 129.56,
+      "text": "Let's continue."
+    },
+    {
+      "start": 129.56,
+      "end": 131.76,
+      "text": "Let's not break the rules today."
+    }
+  ]
+}
