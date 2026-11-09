@@ -1,0 +1,42 @@
+{
+  "series": "月色不晚 / Moonlight Is Not Late",
+  "target_setting": "Contemporary Delhi, India",
+  "characters": [
+    {
+      "source_name": "步晚",
+      "romanized_name": "Bu Wan",
+      "adapted_name": "Meera Khanna",
+      "role": "protagonist; bride-to-be"
+    },
+    {
+      "source_name": "霍明熙",
+      "romanized_name": "Huo Mingxi",
+      "adapted_name": "Aarav Malhotra",
+      "role": "Meera's fiance"
+    },
+    {
+      "source_name": "沐雪",
+      "romanized_name": "Mu Xue",
+      "adapted_name": "Naina Kapoor",
+      "role": "Aarav's former love"
+    },
+    {
+      "source_name": "巧巧",
+      "romanized_name": "Qiaoqiao",
+      "adapted_name": "Kavya Sharma",
+      "role": "Meera's friend"
+    },
+    {
+      "source_name": "沈括",
+      "romanized_name": "Shen Kuo",
+      "adapted_name": "Rohan Mehta",
+      "role": "Aarav's playful friend"
+    },
+    {
+      "source_name": "钟意",
+      "romanized_name": "Zhong Yi",
+      "adapted_name": "Vikram Sethi",
+      "role": "Aarav's cautious friend"
+    }
+  ]
+}
