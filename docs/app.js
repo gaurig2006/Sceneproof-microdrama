@@ -408,14 +408,8 @@ async function runReview() {
   }
 
   if (videoFile && !state.backendAvailable) {
-    $('#pipelineNote').textContent = 'This hosted page cannot execute Whisper. The selected video was previewed only; run the included Python backend for a new-video analysis.';
-    showToast('New-video AI needs the local backend');
-    state.running = false;
-    button.classList.remove('is-running');
-    button.removeAttribute('aria-busy');
-    button.querySelector('span').textContent = 'Run review';
-    syncRunAvailability();
-    return;
+    $('#pipelineNote').textContent = 'Hosted demo mode: the selected video is preview-only because GitHub Pages cannot execute Whisper. The review will continue against the supplied, timestamped Episode 1 evidence.';
+    showToast('Video preview loaded — using verified source evidence');
   }
 
   button.querySelector('span').textContent = 'Loading verified evidence…';
@@ -521,6 +515,14 @@ function reviewDownload() {
 }
 
 async function resetDemo() {
+  const videoInput = $('#videoInput');
+  const video = $('#videoPreview');
+  videoInput.value = '';
+  video.pause();
+  video.removeAttribute('src');
+  video.load();
+  video.style.display = 'none';
+  $('#videoPlaceholder').style.display = '';
   $('#scriptInput').value = state.originalScript;
   $('#mapInput').value = JSON.stringify(state.characterMap, null, 2);
   $('#rulesInput').value = state.rules;
@@ -552,6 +554,8 @@ async function resetDemo() {
   $('#reviewEmpty').hidden = false;
   $('#reviewContent').hidden = true;
   $('#cleanScript').textContent = state.originalScript;
+  applyManifest(state.manifest || {});
+  $('#sourceMode').textContent = 'Verified sample';
   const button = $('#runButton');
   button.classList.remove('is-running');
   button.removeAttribute('aria-busy');
