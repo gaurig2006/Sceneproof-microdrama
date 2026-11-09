@@ -1,0 +1,21 @@
+{
+  "project_label": "Moonlight · Episode 01",
+  "episode_label": "Episode 01",
+  "source_title": "月色不晚 · Episode 1",
+  "source_subtitle": "02:22.80 · Chinese audio · NetShort",
+  "source_timecode": "00:00.00 — 02:22.80",
+  "source_url": "https://netshort.com/cn/episode/%E6%9C%88%E8%89%B2%E4%B8%8D%E6%99%9A-1894648982971838466",
+  "file_slug": "episode-01",
+  "verified_run": {
+    "processing_seconds": 41,
+    "transcript_segments": 41,
+    "evidence_frames": 16,
+    "reference_flags": 5
+  },
+  "inputs": {
+    "ground_truth": "data/moonlight_is_not_late_ep01_ground_truth.txt",
+    "script": "data/moonlight_is_not_late_ep01_flawed_indian_adaptation.txt",
+    "character_map": "data/moonlight_is_not_late_character_map.json",
+    "rules": "data/moonlight_is_not_late_adaptation_rules.txt"
+  }
+}
